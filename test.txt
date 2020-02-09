@@ -1,0 +1,292 @@
+func int main() {
+	int i = 45;
+	int i0 = 23 - 4;
+	int i1 = 12 + 4;
+	int i2 = 2 * 5;
+	int i3 = 4 / 1;
+	int i4 = 2 ^ 5;
+	int i5 = 50 % 6;
+	int i6 = (-12+-3+-12);
+	int i7 = 4-(-12+-3);
+	int i8 = (12*-3);
+	int i9 = (12/3);
+	int i10 = (12%3);    
+	int i11 = (12^3);
+	int i12 = 5 + 4;
+	int i13;
+	i13 = 14;
+	
+	float f1 = 12.3 + 4.3;
+	float f2 = 12.3 - 23.1;
+	float f3 = 12.3 * 65.3;
+	float f4 = 12.3 / 3.0;
+	float f5 = (12.3 + 4.3);
+	float f6 = (12.3 * 98.3);
+	float f7 = (12.3 / 2.3);
+
+	bool b1 = true;
+	bool b2 = false;
+	bool b3;
+	bool b4;
+	b3 = true;
+	b4 = false;
+
+	char c1 = 'a';
+	char c2;
+	c2 = 'b';
+
+	int c;
+	c = 12;
+	
+	float f;
+	f = 12.4;
+
+	bool b;
+	b = true;
+
+	char c;
+	c = 'r';
+
+	string str;
+	str = "string";
+
+	int $intArray = {1,2,3,4,5,6};
+
+	int i;
+	for (i = 0 ; i < 6 ; i = i +1) {
+		int tmp = intArray[i];
+		print(tmp);
+	}
+	string $strArray = {"str1", "str2", "str3"};
+
+	string s1 = "this is a string";
+	string s2;
+	s2 = "this is another string";
+
+	string str;
+	if (a < b) {
+		str = "12 is less than 20";
+	} elif (c <= d) {
+		str = "23 is less than or equal 25";
+	} elif (e > f) {
+		str = "30 is bigger than 32";
+	} elif (g >= h) {
+		str = "30 is bigger than or equal 30";
+	} elif (j == k) {
+		str = "45 is equal 50";
+	} elif (s != false) {
+		str = "54 is not equal 50";
+	} else {
+		str = "else situation";
+	}
+	
+	int a = 1;
+	for (int j = 0 ; j < 60 ; j = j + 1) {
+		if (j == 19) {
+			int b = 12;
+			continue;
+		} elif (j == 27) {
+			char cc = 'a';
+			break;
+		}
+		a = a * 2;
+	}
+	while (i < 12) {
+		i = i+1;
+	}
+
+	int w = 0;
+	float fw = 1;
+	bool b1 = false;
+	bool b2 = true;
+	while (w < 100) {
+		if (b1 == true) {
+			fw = fw + 12;
+			b2 = true;
+		} elif (b1 == false ) {
+			fw = fw - 6;
+			b1 = false;
+		}
+		w = w + 6;
+	}
+
+	home h = ("Ali", (12.32, 43.5));
+	home h = ("Ali", rooad);
+	home h = (name, (12.32, 43.5));
+	home h = (name, intt);
+	home h = (name, (a, b));
+
+	for (i = 0 ; i < 10; i = i+1) {
+		int v = 12;
+	}
+
+	while (i < 12) {
+		i = i+1;
+	}
+
+	if (i < 12) {
+
+	} else {
+		i = 12;
+	}
+	int i;
+	i = -10;
+
+	int ii = 5;
+
+
+	float f;
+	f = 1.4;
+
+	float ff = 2.3;
+
+	char cha = 'a';
+	char chartemptemptemp;
+	char chartemptemptemp = 'b';
+
+	string strstrstr = "this is string";
+	string strstr;
+	strstr = "this is another str";
+
+	bool b = true;
+	bool bb;
+	bb = false;
+
+	int $arr = {1,2,3,4,5,6,7};
+
+	int a = +5+-4*-4/+1;
+	int bb = -4-5;
+	float ab = +5.0++4.1*-4.3/+1.0;
+
+	int x = mulfunc();
+	int xx = divfunc(a, 6);
+
+	gps g = (3.4, 5.7);
+	crossroad c = g;
+	float as = 12.6;
+	crossroad c1 = (3.4, as);
+	road r2 = ((3.4, 5.7), (3.4, 5.7));
+	road $r3 = {((3.4, 5.7), (3.4, 5.7)), ((3.4, 5.7), (3.4, 5.7))};
+	road $r4 = {r2};
+	road $r5 = {((3.4, 5.7), (3.4, 5.7)), r2};
+	crossroad $cr = {(3.4, 5.7), c, c1};
+	crossroad $cr2 = {(3.4, 5.7), c, c1};
+
+	graph g = {c2, r3};
+	user usr1 = ("Ali", (3.4, 5.7));
+	string name = "Mehmet";
+	user usr2 = (name, (3.4, 5.7));
+	user usr3 = ("Osman", a);
+	showonmap(longitude,latitude);
+	showonmap(longitude, 5.7);
+	showonmap(5.7, a);
+
+	searchlocation(address);
+	searchlocation("aaaaaaaaa");
+
+	getroadspeed(r);
+	getroadspeed(((3.4, 5.7), (3.4, 5.7)));
+	getroadspeed(((3.4, 5.7), a));
+	getroadspeed((a, (3.4, 5.7)));
+	getroadspeed((a, b));
+
+	getlocation(use);
+	getlocation(("ali", (3.4, 5.7)));
+
+	showtarget(address);
+	showtarget("AsasdasdASD");
+	home h = ("ali", (3.4, 5.7));
+	postoffice h = ("ali", (3.4, 5.7));
+	graph g = {((3.4, 5.7), (3.4, 5.7)), (((3.4, 5.7), (3.4, 5.7)), ((3.4, 5.7), (3.4, 5.7)))};
+	graph g = {((3.4, 5.7), (3.4, 5.7)), a};
+	graph g = {a, (((3.4, 5.7), (3.4, 5.7)), ((3.4, 5.7), (3.4, 5.7)))};
+	home $f = {("ali", (3.4, 5.7)), ("ali", (3.4, 5.7))};
+	home $f = {("ali", (3.4, 5.7))};
+	home $f = {h, h};
+	home $f = {};
+	graph g = {};
+	int $a = {};
+	char c = "1";
+	colloborateusers((a, b));		// Comment line 
+
+	print();
+	print("a");
+	print(5);
+	print(7.9);
+	print('a');
+	print(a, b);
+	print(5, 8);
+	print(a, "a");
+	
+	intructuser(a,);
+	intructuser(a, (3.4, 5.7));
+	intructuser(a, ("ali", (3.4, 5.7)));
+	intructuser(("ali", (3.4, 5.7)), (3.4, 5.7));
+
+	increasescoreofroad(a);
+	increasescoreofroad(((3.4, 5.7), (3.4, 5.7)));
+
+	decreasescoreofroad(a);
+	decreasescoreofroad(((3.4, 5.7), (3.4, 5.7)));
+
+	getscoreofroad(a);
+	getscoreofroad(((3.4, 5.7), (3.4, 5.7)));
+	
+	showroadonmap(a);
+	showroadonmap(((3.4, 5.7), (3.4, 5.7)));
+
+	showcrossroadonmap((3.4, as));	 // asjdasjk
+}
+
+// These are userdefined functions
+func int returnTwelve(int a, int b) {
+	return 12; 
+}
+
+func void funvoid() {
+	return;
+}
+
+func string returnString () {
+	for (int j = 0 ; j < 60 ; j = j + 1) {
+		if (j < 20) {
+			int b = 12;
+			string tempStr = "string in for loop";
+			continue;
+		} elif (j == 27) {
+			char cc = 'a';
+			break;
+		}
+		a = a * 2;
+	}
+
+	return "for loop";
+}
+
+func char returnChar(char c) {
+	return c;
+}
+
+func int divfunc(int a, int b) {
+    return f / 2;
+}
+
+func int intFunc(int a) {
+	return 12;
+}
+func float floatFunc(float a) {
+	return (12.3);
+}
+func bool boolFunc(bool a) {
+	return (t);
+}
+func char charFunc(char c) {
+	return 'c';
+}
+func void voidFunc() {
+	print(dsadas);
+}
+func string stringFunc() {
+	return true;
+
+}
