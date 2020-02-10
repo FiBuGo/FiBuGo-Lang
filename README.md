@@ -54,8 +54,8 @@ If you have any great idea, you can contact with us or you can directly send pul
 
 ## Contributors & Contact
 
-- **Fidan Samet** : [Mail](fidansamet@hacettepe.edu.tr) - [GitHub](https://github.com/fidansamet) - [LinkedIn](https://tr.linkedin.com/in/fidansamet) 
+- **Fidan Samet** : [Mail](mailto:fidansamet@hacettepe.edu.tr) - [GitHub](https://github.com/fidansamet) - [LinkedIn](https://tr.linkedin.com/in/fidansamet) 
 
-- **Burak Yılmaz** : [Mail](burak040898@gmail.com) - [GitHub](https://github.com/SBurakYlmaz) - [LinkedIn](https://www.linkedin.com/in/burak-yilmaz-b42814171/)
+- **Burak Yılmaz** : [Mail](mailto:burak040898@gmail.com) - [GitHub](https://github.com/SBurakYlmaz) - [LinkedIn](https://www.linkedin.com/in/burak-yilmaz-b42814171/)
 
-- **Gökhan Özeloğlu** : [Mail](gozeloglu@gmail.com) - [GitHub](https://github.com/gozeloglu) - [LinkedIn](https://www.linkedin.com/in/gokhanozeloglu/)
+- **Gökhan Özeloğlu** : [Mail](mailto:gozeloglu@gmail.com) - [GitHub](https://github.com/gozeloglu) - [LinkedIn](https://www.linkedin.com/in/gokhanozeloglu/)
